@@ -1,0 +1,13 @@
+// 单行溢出隐藏 显示省略号
+@mixin singleRowEllipsis {
+  overflow: hidden; //超出的文本隐藏
+  text-overflow: ellipsis; //溢出用省略号显示
+  white-space: nowrap; //溢出不换行
+}
+
+// 垂直 水平居中
+@mixin horizontalVerticalCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

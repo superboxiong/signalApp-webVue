@@ -1,0 +1,164 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+fieldset,
+lengend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* 重置列表元素 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 重置文本格式元素 */
+a {
+  text-decoration: none;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+/* 重置表单元素 */
+legend {
+  color: #000;
+}
+
+/* for ie6 */
+button,
+textarea {
+  font-size: 100%;
+  border: 0;
+}
+
+/* 使得表单元素在 ie 下能继承字体大小 */
+fieldset,
+img {
+  border: 0;
+}
+
+/* img 搭车：让链接里的 img 无边框 */
+
+/* 重置表格元素 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 清除浮动 */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* 文字选中效果 */
+::selection {
+  background-color: #b3d4fc;
+  text-shadow: none;
+}
+
+/* 浏览器升级 */
+.browser-up {
+  padding: 1rem;
+  background: #ccc;
+  text-align: center;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a img {
+  border: none
+}
+
+a,
+input,
+label {
+  outline: none;
+  -moz-outline-style: none;
+  -webkit-tap-highlight-color: none;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  -moz-outline-style: none;
+  -webkit-tap-highlight-color: none;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #000;
+  text-decoration: none;
+  -moz-outline-style: none;
+  -webkit-tap-highlight-color: none;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
