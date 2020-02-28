@@ -1,0 +1,87 @@
+.building-test-page {
+#container {
+    width: 100%;
+    height: calc(100% - 30px - 25px);
+}
+// 头部样式
+   .header {
+       height: 30px;
+       background-color: rgba(107, 107, 107, 1);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0 10px;
+       color: white;
+       position: relative;
+       z-index: 162;
+.time-box {
+    width: 100px;
+    transform:translateX(70%);
+}
+.switch-button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1px;
+p {
+    padding: 0 5px;
+    color: rgba(107, 107, 107, 1);
+    font-size: 12px;
+}
+p.selected {
+    background-color: rgba(107, 107, 107, 1);
+    color: white;
+}
+}
+}
+.select-div{
+    height: 30px;
+    transform:translateY(1%);
+    border-bottom:1px solid;
+    /*border-top:1px solid;*/
+    border-color: #999999;
+    line-height: 260%;
+    font-size: -0.7rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+.message-div{
+    height: 30px;
+    //font-size: 13px;
+}
+.start-test-button {
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #cdcdcd;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    z-index: 161;
+    transform:translateY(500%)
+}
+.title{
+    border-bottom:1px solid;
+    border-color: #999999;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.icon-div{
+    height: 30px;
+    float: right;
+    margin-right: 21px;
+    margin-top: -3.3rem;
+    display: table-cell;
+}
+.selected-message{
+    font-size: 0.8rem;
+    padding-left: 24px;
+}
+.span-message{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+}

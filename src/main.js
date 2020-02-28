@@ -3,12 +3,19 @@ import App from "./App.vue";
 import VueTouch from "vue-touch";
 import router from "./router/index.js";
 import store from "./store/index.js";
-import "mint-ui/lib/style.css";
-import "./assets/css/reset.scss";
+import ElementUi from 'element-ui';
 // 按需引入部分组件
 import MintUI from "mint-ui";
+import { Picker } from 'mint-ui';
+import "mint-ui/lib/style.css";
+import "./assets/css/reset.scss";
+import VueScrollPicker from "vue-scroll-picker"
+
+Vue.component(Picker.name,Picker)
 // Vue.component(Cell.name, Cell);
+Vue.use(VueScrollPicker)
 Vue.use(MintUI);
+Vue.use(ElementUi)
 Vue.use(VueTouch, { name: "v-touch" });
 Vue.config.productionTip = false;
 // 计算htmlfont-size

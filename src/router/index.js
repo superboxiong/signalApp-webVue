@@ -6,6 +6,9 @@ import DataAnalysisPage from "./../pages/DataAnalysisPage/DataAnalysisPage.vue";
 import DataManagePage from "./../pages/DataManagePage/DataManagePage.vue";
 import MainPage from "./../pages/MainPage/MainPage.vue";
 import SavePage from "./../pages/SavePage/SavePage.vue";
+import CoverTestPage from "./../pages/CoverTestPage/CoverTestPage.vue"
+import test from "./../pages/test.vue"
+import FloorTestPage from "./../pages/BuildingTestPage/FloorTestpage"
 
 Vue.use(VueRouter);
 
@@ -21,9 +24,14 @@ const routes = [
         component: RoadTestPage
       },
       {
-        path: "/buildingTest",
+        path:"/buildingTest",
         name: "BuildingTestPage",
         component: BuildingTestPage
+      },
+      {
+        path:"/CoverTestPage",
+        name:"CoverTestPage",
+        component:CoverTestPage
       },
       {
         path: "/dataAnalysis",
@@ -41,7 +49,13 @@ const routes = [
     path: "/savePage",
     name: "SavePage",
     component: SavePage
-  }
+  },
+  //////
+  {
+    path: "/FloorTestPage",
+    name: "FloorTestPage",
+    component: FloorTestPage
+  },
 ];
 
 const router = new VueRouter({
